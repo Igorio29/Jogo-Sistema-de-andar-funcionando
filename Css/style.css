@@ -1,0 +1,113 @@
+body{
+    background:url(/Imagens/Planos-de-fundo/Plano-de-fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: Pixel;
+    src: url(/Fontes/GrapeSoda.ttf);
+}
+
+@font-face{
+    font-family: Pixel2;
+    src: url(/Fontes/GenericMobileSystem.ttf);
+}
+.Titulo1 {
+    font-size: 80px;
+    font-family: Pixel;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.informacoes {
+    font-family: Pixel2;
+    margin:0 15%;
+    text-align: justify;
+}
+.Regras  {
+    margin: 20% 20% 0px;
+}
+.Titulo-Regras {
+    text-align: center;
+    font-family: Pixel;
+    font-size: 30px;
+}
+
+.abas-row {
+    display: inline;
+    list-style: none;
+}
+
+.aba {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 50px;
+    font-family: Pixel2;
+}
+
+.texto {
+    display: none;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.conteudo {
+    margin-top: 10px;
+}
+
+.botao {
+    text-align: center;
+    margin-bottom: 10%;
+    transition: 0.2s;
+    padding: 50px;
+}
+
+.comecar-o-jogo {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black; /* Em vez de 'border-style' e 'border-color' */
+    font-family: Pixel;
+    margin-left: 0%;
+}
+
+.comecar-o-jogo:hover {
+    background-color: #006eff;
+    padding: 2px;
+}
+
+#footer {
+    background-color: #333;
+    color: #0a0909;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: opacity 0.3s;
+}
+
+#back-to-top {
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    bottom: 15px;
+    left: 46.5%;
+    font-size: 20px;
+}
+
+#back-to-top:hover {
+background-color: rgb(88, 88, 88);
+}
+
+.hidden {
+    display: none;
+}
